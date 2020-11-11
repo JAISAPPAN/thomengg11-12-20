@@ -1,65 +1,94 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 
-export default function Home() {
+import Header from './Header'
+import { Container,Row,Col,Carousel} from 'react-bootstrap'
+import {JumboIndex} from '../components/Jumbo';
+import Footer from './Footer'
+
+
+
+
+export default function index() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <div>
+      <Header/>
+      <JumboIndex/>
+      <div>
+      <Container>
+        <Row>
+          <Col sm={6}>
+              <p><strong>THOMSON ENGINEERS & CONTRACTORS</strong> established in the year 2015. Company
+              offers a comprehensive range of services in Electrical, Fire Safety and
+              Mechanical - Engineering, Procurement & Construction (EPC) jobs in Marine, Ship
+              building, Ship Repair, Petrochemicals, Refinery, Oil & Gas, Commercial and Residential
+             Sectors.</p>
+              <p>The company is authorized by Department of Industries;
+              Energy & Labour of Electrical Contractor License, undertake all type of
+              LT/HT electrical installation. The company has technical and Management
+              employee staff strength in variety of speciality to take-up projects and
+            services.</p>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+              <p>Firm is registered with Hindustan Petroleum Corporation Ltd (HPCL), Mumbai Refinery,
+             Cochin Shipyard Ltd (CSL-MSRU) and Naval Dockyard Mumbai.</p>
+          </Col>
+          <Col sm={6}>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+              <Carousel interval={3000}>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src="/insviraat.jpg"
+                    alt="First slide"
+                  />
+                  <Carousel.Caption>
+                    <h3>First slide label</h3>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+              
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src="./images/1.jpeg"
+                    alt="First slide"
+                  />
+                  <Carousel.Caption>
+                    <h3>First slide label</h3>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src="./images/2.jpeg"
+                    alt="Third slide"
+                  />
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+                  <Carousel.Caption>
+                    <h3>Second slide label</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src="./images/3.jpeg"
+                    alt="Third slide"
+                  />
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+                  <Carousel.Caption>
+                    <h3>Third slide label</h3>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+              </Carousel>
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
+          </Col>
+        </Row>
+      </Container>
+        
+      </div>
+      <Footer/>
     </div>
   )
 }

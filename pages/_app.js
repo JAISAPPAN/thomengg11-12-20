@@ -1,4 +1,8 @@
-import '../styles/globals.css'
+import '../styles/globals.css';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
+import 'bootstrap-social/bootstrap-social.css';
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
