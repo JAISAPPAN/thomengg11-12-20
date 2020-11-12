@@ -1,5 +1,5 @@
 import MwtswitchsocketPdts, { MwtswitchsocketTable,INSDELHI} from '../components/MwtswitchsocketCompo'
-
+import style from '../styles/Home.module.css'
 import Header from './Header'
 import Footer from './Footer'
 import { JumboProduct } from '../components/Jumbo'
