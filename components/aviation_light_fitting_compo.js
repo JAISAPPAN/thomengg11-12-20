@@ -48,7 +48,7 @@ export default function Aviation_light_fitting_compo() {
             <Row><Link href="/productEnquiryPage"><Button className="mt-2 btn-success ml-auto mr-4" size="sm">MAKE ENQUIRY</Button></Link></Row>
             {
                 Pdt.map(avi=>(
-                    <Card>
+                    <Card style={{marginRight:"auto",marginLeft:"auto",width:"50%"}}>
                     <Card.Img src={avi.url}/>
                     <Card.Text>{avi.cat}</Card.Text>
                     </Card>
@@ -64,7 +64,7 @@ export default function Aviation_light_fitting_compo() {
 export  function Aviation_light_fitting1() {
     return (
         <div>
-            <Row><Button size="lg" block>Product Details</Button></Row>
+            <Row><Button className="mt-3" size="lg" block>Product Details</Button></Row>
             <Table striped bordered hover variant="info">
                 <thead>
                     <tr>

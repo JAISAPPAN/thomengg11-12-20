@@ -127,7 +127,7 @@ export default function Marine_deck_light_well_glass_light_fitting_Pdts()
     return (
         <div>
            
-                <Row><Button size="lg" block>MARINE DECK LIGHT/ WELL GLASS LIGHT FITTING</Button></Row>
+                <Row><Button  size="lg" block>MARINE DECK LIGHT/ WELL GLASS LIGHT FITTING</Button></Row>
             <Row><Link href="/productEnquiryPage"><Button className="mt-2 btn-success ml-auto mr-4" size="sm">MAKE ENQUIRY
             </Button></Link></Row>
                     <Row>
@@ -161,7 +161,7 @@ export function Marine_deck_light_well_glass_light_fitting_Table()
             {
     return (
             <div>
-                <Row><Button size="lg" block>Product Details</Button></Row>
+            <Row><Button className="mt-5"size="lg" block>Product Details</Button></Row>
                 <Table striped bordered hover variant="dark">
                     <thead>
                         <tr>

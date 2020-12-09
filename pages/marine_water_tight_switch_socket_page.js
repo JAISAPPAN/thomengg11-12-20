@@ -1,4 +1,4 @@
-import MwtswitchsocketPdts, { MwtswitchsocketTable,INSDELHI} from '../components/MwtswitchsocketCompo'
+import MwtswitchsocketPdts, { MwtswitchsocketTable} from '../components/MwtswitchsocketCompo'
 import style from '../styles/Home.module.css'
 import Header from './Header'
 import Footer from './Footer'
@@ -14,12 +14,12 @@ export default function Marine_water_tight_switch_socket() {
         <Header/>
         <JumboProduct/>
             <Row>
-                <Col className={style.wt_switch_sidebar}sm={{ span: 3 }}>
+                <Col sm={{ span: 3 }}>
                     <SideBar />
                 </Col>
                 <Col sm={{ span: 9 }}>
                     <MwtswitchsocketPdts />
-                    <INSDELHI className="switch_socket_fill" />
+                   
                 </Col>
             </Row>
         

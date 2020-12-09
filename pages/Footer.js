@@ -14,7 +14,7 @@ export default function Footer() {
                                 <li><Link href="/" passHref><Nav.Link>Home</Nav.Link></Link></li> 
                                 <li><Link href="/About" passHref ><Nav.Link >About US</Nav.Link></Link></li>
                                 <li><Link href="/Service" passHref ><Nav.Link >Services</Nav.Link></Link></li>  
-                                <li><Link href="/marine_vibration_proof_fitting_page" passHref ><Nav.Link >Marine Products</Nav.Link></Link></li>  
+                                <Link href="/Contact">Contact Us</Link>  
                                 
                             </ul>
                         </div> 
@@ -27,13 +27,17 @@ export default function Footer() {
                             <ul className="list-unstyled">
                                 
                                 <NavDropdown title="Products" id="collasible-nav-dropdown">
-                                    <Link href="Mct" passHref><NavDropdown.Item >Multi Cable Transit</NavDropdown.Item></Link>
-                                    <Link href="Flameproof" passHref><NavDropdown.Item >Flame Proof Products</NavDropdown.Item></Link>
-                                    <Link href="Rubbermat" passHref><NavDropdown.Item >Insulating Rubber Mats</NavDropdown.Item></Link>
-                                    <Link href="Wireandcables" passHref><NavDropdown.Item >Wires and Cables</NavDropdown.Item></Link>
-                                    <Link href="Otherproducts" passHref><NavDropdown.Item >Other Products</NavDropdown.Item></Link>
-                                </NavDropdown>
 
+                                    <Link href="Mct"><Button size="sm" block >Multi Cable Transit</Button></Link>
+
+                                    <Link href="Flameproof"><Button size="sm" block>Flame Proof Products</Button></Link>
+                                    <Link href="Rubbermat"><Button size="sm" block>Insulating Rubber Mats</Button></Link>
+                                    <Link href="Wiresandcables"><Button size="sm" block>Wires and Cables</Button></Link>
+                                    <Link href="fire_safety_items_page"><Button size="sm" block>Fire Safety Items</Button></Link>
+                                    <Link href="/marine_vibration_proof_fitting_page"><Button size="sm" block>Marine Products</Button></Link>
+
+
+                                </NavDropdown>
 
                             </ul>
                         </div>
@@ -44,18 +48,11 @@ export default function Footer() {
 
                         <div>
                             <h5>Links</h5>
-                            <ul className="list-unstyled">
-                                <NavDropdown title="Technical Info" id="collasible-nav-dropdown">
-                                    <Link href="TechnicalOne" passHref><NavDropdown.Item >Technical Info One </NavDropdown.Item></Link>
-                                    <Link href="TechnicalTwo" passHref><NavDropdown.Item >Technical Info Two </NavDropdown.Item></Link>
+                            <NavDropdown title="Technical Info" id="collasible-nav-dropdown">
+                                <Link href="TechnicalOne"><Button size="sm" block >Technical Info One</Button></Link>
+                                <Link href="TechnicalTwo"><Button size="sm" block >Technical Info Two</Button></Link>
 
-                                </NavDropdown>
-                                
-                                <li><Link href="/Exports" passHref><Nav.Link>Exports</Nav.Link></Link></li>
-                                <li><Link href="Technical" passHref><Nav.Link >Technical Info</Nav.Link></Link></li>
-                                <li><Link href="/Contact" passHref><Nav.Link >Contact Us</Nav.Link></Link></li>
-
-                            </ul>
+                            </NavDropdown>
                         </div>
 
                     </Col>

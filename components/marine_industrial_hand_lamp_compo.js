@@ -23,13 +23,15 @@ export const Marine_ind_hand_lamp_tbl1=[
 export default function Marine_industrial_hand_lamp_Pdt1() {
     return (
         <div>
-            <Row><Button size="lg" block >MARINE INDUSTRIL HAND LAMP</Button></Row>
+            <Row><Button size="lg" block >MARINE INDUSTRIL HAND LAMPS</Button></Row>
             <Row><Link href="/productEnquiryPage"><Button className="mt-2 btn-success ml-auto mr-4" size="sm">MAKE ENQUIRY
             </Button></Link></Row>
             <Row>{
             Marine_ind_hand_lamp_tbl1.map(pdt=>(
                 
-                <Card>
+                <Card style={{
+                    marginRight: "auto", marginLeft: "auto", width: "50%"
+                }}>
                    
                 <Card.Img style={{width:'26rem'}} src={pdt.url}/>
                 <Card.Title>{pdt.cat}</Card.Title>

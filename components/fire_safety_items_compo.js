@@ -163,6 +163,7 @@ import React from 'react'
 export default function Fire_safety_items_compo() {
     return (
         <div>
+            <Row><Button size="lg" block>FIRE SAFETY ITEMS</Button></Row>
             <Row>
                 {
                     Fire_safety_items.map(fire => (

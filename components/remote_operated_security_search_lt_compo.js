@@ -16,7 +16,7 @@ export const Remote_operate_serurity_search_lt_Tbl1 = [
 
 
 
-export default function Remote_operate_serurity_search_lt()
+export default function Remote_operate_serurity_search_lt_One()
 {
     return (
         <div>
@@ -26,22 +26,34 @@ export default function Remote_operate_serurity_search_lt()
             <Row>
                 {
                     Remote_operate_serurity_search_lt_Tbl1.map(manual => (
-                        <Card>
+                        <Card style={{marginLeft:"auto",marginRight:"auto",width:"50%"}}>
                             <Card.Img src={manual.url} />
                             <Card.Text>{manual.cat}</Card.Text>
                         </Card>
                     ))
                 }
             </Row>
+           
+        </div>
+    )
+}
+
+
+
+export function Remote_operate_serurity_search_lt_Two() {
+    return (
+        <div>
+            <Row><Button className="mt-3" size="lg" block>MANUEL SEARCH LIGHT DRAWING</Button></Row>
             <Row>
-                <Card>
+                <Card style={{ marginLeft: "auto", marginRight: "auto", width: "50%" }}>
                     <Card.Img src="/MARINE REMOTE OPERATED SECURITY SEARCH LIGHT/3.jpg" />
-                    <Card.Text>Manual Search Light Drawing</Card.Text>
+                   
                 </Card>
             </Row>
         </div>
     )
 }
+
 
 export const Remote_operate_serurity_search_lt_Tb2 = [
     {
@@ -75,7 +87,7 @@ export function Remote_operate_serurity_search_Tbl2()
 {
     return (
         <div>
-            <Row><Button size="lg" block>Product Details</Button></Row>
+            <Row><Button className="mt-3" size="lg" block>Product Details</Button></Row>
             <Table striped bordered hover variant="info">
                 
 

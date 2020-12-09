@@ -152,11 +152,4 @@ export function MwtswitchsocketTable()
 }
 
 
-export  function INSDELHI() {
-    return (
-        <div>
-            <Image id="insdelhi" src="/navalyard.jpeg"/>
-            <Image id="insdelhi" src="/insdelhi.jpeg" />
-        </div>
-    )
-}
+

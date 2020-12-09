@@ -106,7 +106,7 @@ export function Marine_flood_light_fitting_Tbl1()
 {
     return (
         <div>
-            <Row><Button size="lg" block>Product Details</Button></Row>
+            <Row><Button className="mt-2" size="lg" block>Product Details</Button></Row>
             <Table striped bordered hover variant="info">
                 <thead>
                     <tr>
@@ -207,7 +207,7 @@ export function Marine_flood_light_fitting_Tbl2()
     return (
         <div>
             
-            <Row><Button size="lg" block>Product Details</Button></Row>
+            <Row><Button className="mt-4" size="lg" block>Product Details</Button></Row>
             <Table striped bordered hover variant="info">
                 <thead>
                     <tr>
@@ -244,10 +244,10 @@ export function Marine_flood_light_fitting_Tbl2()
     )
 }
 
-export function INSVIRAT(){
-    return(
-        <div id="">
-            <Image id="flood_lt_fill" src="./insviraat.jpg" rounded/>
+// export function INSVIRAT(){
+//     return(
+//         <div id="">
+//             <Image id="flood_lt_fill" src="./insviraat.jpg" rounded/>
     
-    </div>
-)}
+//     </div>
+// )}

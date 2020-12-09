@@ -27,15 +27,16 @@ export default function Ajmera_marine_nav_light_Pdt_one() {
         <div>
             <Row><Button size="lg" block>Singal Deck Navigation Light</Button></Row>
             
-            <Row><Link href="/productEnquiryPage"><Button className="mt-2 btn-success ml-auto mr-4" size="sm">MAKE ENQUIRY
+            <Row><Link href="/productEnquiryPage"><Button className="mt-2 btn-success ml-auto mr-4 mb-2" size="sm">MAKE ENQUIRY
             </Button></Link></Row>
             <Row>
             {Ajmera_marine_nav_light_one.map(lt=>(
                 
-                <Card>
+                <Card style={{
+                    marginRight: "auto", marginLeft: "auto",marginTop:"auto",marginBottom:"auto",width: "50%"
+                }}>
                   
-                <Card.Img style={{width:'23rem',marginLeft:'40px',
-                }}src={lt.url}/>
+                    <Card.Img  src={lt.url}/>
                 <Card.Text>{lt.cat}</Card.Text>
                    
                 </Card>
@@ -71,7 +72,9 @@ export function Ajmera_marine_nav_light_Pdt_two()
             <Row>
                 {Ajmera_marine_nav_light_two.map(lt => (
 
-                    <Card>
+                    <Card style={{
+                        marginRight: "auto", marginLeft: "auto", marginTop:"1rem" ,width: "50%"
+                    }}>
 
                         <Card.Img style={{
                             width: '23rem', marginLeft: '40px',

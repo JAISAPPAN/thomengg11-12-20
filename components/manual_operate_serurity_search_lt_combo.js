@@ -81,7 +81,7 @@ export const Manual_operate_serurity_search_lt_Tbl2=[
 export  function Manual_operate_serurity_search_lt_Table1() {
     return (
         <div>
-            <Row><Button size="lg" block>Product Details</Button></Row>
+            <Row><Button className="mt-3" size="lg" block>Product Details</Button></Row>
             <Table striped bordered hover variant="info">
                 <thead>
                     <tr>
@@ -253,7 +253,7 @@ import React from 'react'
 export function Manual_operate_serurity_search_lt_Table2() {
     return (
         <div>
-            <Row><Button size="lg" block>Product Details</Button></Row>
+            <Row><Button className="mt-3" size="lg" block>Product Details</Button></Row>
             <Table striped bordered hover variant="info">
                 <thead>
                     <tr>

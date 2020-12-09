@@ -27,7 +27,7 @@ export default function Marine_water_junction_box() {
 
             {
                 JunctionBox_Tbl.map(tbl=>(
-                    <Card>
+                    <Card style={{marginLeft:"auto",marginRight:"auto",width:"50%"}}>
                         
                         <Card.Img src={tbl.url} />
                         <Card.Title>{tbl.cat}</Card.Title>
@@ -64,7 +64,7 @@ import React from 'react'
 export  function Marine_water_junction_box_compo1() {
     return (
         <div>
-            <Row><Button size="lg" block>Product Details</Button></Row>
+            <Row><Button className="mt-3" size="lg" block>Product Details</Button></Row>
             <Table striped bordered hover variant="info">
                 <thead>
                     <tr>
@@ -78,7 +78,7 @@ export  function Marine_water_junction_box_compo1() {
                         <tbody>
                             <tr>
                                 <td>{light.cat}</td>
-                                <td>{light.Spec}</td>
+                                <td>{light.spec}</td>
 
                             </tr>
 

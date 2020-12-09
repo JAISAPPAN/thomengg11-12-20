@@ -1,4 +1,4 @@
-import { Container,Row,Col,Card, Button,Table} from "react-bootstrap"
+import {Row,Col,Card, Button,Table} from "react-bootstrap"
 import Link from 'next/link'
 
 const MwtsOne =[
@@ -43,9 +43,7 @@ export default function Marine_water_tight_switch() {
                         <Card.Img  variant="top" src={mwt.url} />
                         <Card.Body>
                             <Card.Title>CATALOG NUMBER -{mwt.CatalogNumber}</Card.Title>
-                            <Card.Text>
-                                
-                            </Card.Text>
+                            
                         </Card.Body>
                        
                         <Card.Body>
