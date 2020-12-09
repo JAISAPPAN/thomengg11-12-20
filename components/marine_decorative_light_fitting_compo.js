@@ -1,5 +1,6 @@
 
 import {Card,Table,Button,Row,Image} from 'react-bootstrap'
+import Link from 'next/link'
 export const DecorativeFloodLtPdt1=[
     {
         id:'1',
@@ -41,6 +42,9 @@ export const DecorativeFloodLtPdt2 = [
 export default function Marine_decorative_light_fitting_Pdt1() {
     return (
         <div>
+            <Row><Button size="lg" block>MARINE DECORATIVE LIGHT FITTING</Button></Row>
+            <Row><Link href="/productEnquiryPage"><Button className="mt-2 btn-success ml-auto mr-4" size="sm">MAKE ENQUIRY
+            </Button></Link></Row>
         <Row>
         {
                 DecorativeFloodLtPdt1.map(light=>(

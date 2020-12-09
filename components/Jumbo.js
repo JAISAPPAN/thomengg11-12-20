@@ -5,11 +5,11 @@ export function JumboIndex() {
     return (
         <div >
             <Jumbotron className={style.jumboIndex}>
-                <h1>THOMSON ENGINEERING & CONTRACTORS</h1>
+                <h1>THOMSON ENGINEERS & CONTRACTORS</h1>
                 <h2 id="iso">ISO 9001:2015 CERTIFIED COMPANY</h2>
-                <h3>Work Contractors and Material Supply</h3>
+                <h3>Work Contracts and Material Supply</h3>
                 <p>
-                    (Electrical, Instrument, Fire Safety and Mechanical Jobs)
+                    (Electrical, Instrument, Fire Safety and Mechanical Engineering Jobs)
         </p>
                 <p>
 
@@ -26,11 +26,11 @@ export function JumboAbout()
          <div>
             <Jumbotron className={style.JumboAbout}>
            
-                <h1>THOMSON ENGINEERING & CONTRACTORS</h1>
+                <h1>THOMSON ENGINEERS & CONTRACTORS</h1>
                 <h2 >ISO 9001:2015 CERTIFIED COMPANY</h2>
-                <h3>Work Contracts Service and Material Supply</h3>
+                <h3>Work Contracts and Material Supply</h3>
                 <p>
-                    (Electrical, Instrument, Fire Safety and Mechanical Jobs)
+                    (Electrical, Instrument, Fire Safety and Mechanical Engineering Jobs)
         </p>
                 <p>
 
@@ -49,11 +49,11 @@ export function JumboContact()
         <div id="jumboContact">
             <Jumbotron id="jumboContact">
 
-                <h1>THOMSON ENGINEERING & CONTRACTORS</h1>
+                <h1>THOMSON ENGINEERS & CONTRACTORS</h1>
                 <h2 id="iso">ISO 9001:2015 CERTIFIED COMPANY</h2>
-                <h3>Work Contracts Service and Material Supply</h3>
+                <h3>Work Contracts and Material Supply</h3>
                 <p>
-                    (Electrical, Instrument, Fire Safety and Mechanical Jobs)
+                    (Electrical, Instrument, Fire Safety and Mechanical Engineering Jobs)
         </p>
                 <p>
 
@@ -71,19 +71,19 @@ export function JumboProduct()
         <div >
             <Jumbotron id="jumboProduct">
 
-                <h1>THOMSON ENGINEERING & CONTRACTORS</h1>
+                <h1 id="jumbo_one">THOMSON ENGINEERS & CONTRACTORS</h1>
                 
-                <Image id="certlogo" src="./logos/1.png" ></Image>
-                <Image id="certlogo" src="./logos/2.jpg" ></Image>
-                <Image id="certlogo" src="./logos/3.png" ></Image>
-                <Image id="certlogo" src="./logos/4.jpg" ></Image>
-                <Image id="certlogo" src="./logos/5.jpg" ></Image>
-                <Image id="certlogo" src="./logos/6.png" ></Image>
-                <Image id="certlogo" src="./logos/7.png" ></Image>
-                <Image id="certlogo" src="./logos/8.png" ></Image>
-                <Image id="certlogo" src="./logos/9.gif" ></Image>
-                <Image id="certlogo" src="./logos/10.gif" ></Image>
-                <Image id="certlogo" src="./logos/11.png" ></Image>
+                <Row id="jumbo_logos">
+                    <Image id="certlogo" src="./logos/1.png" ></Image>
+                    <Image id="certlogo" src="./logos/2.jpg" ></Image>
+                    <Image id="certlogo" src="./logos/3.png" ></Image>
+                    <Image id="certlogo" src="./logos/4.png" ></Image>
+                    <Image id="certlogo" src="./logos/5.jpg" ></Image>
+                    <Image id="certlogo" src="./logos/6.gif" ></Image>
+                    <Image id="certlogo" src="./logos/7.gif" ></Image>
+                    <Image id="certlogo" src="./logos/8.png" ></Image>
+                    <Image id="certlogo" src="./logos/9.png" ></Image>
+                </Row>
             
                
             </Jumbotron>
@@ -99,19 +99,18 @@ export function JumboProduct_Ajmera()
         <div >
             <Jumbotron style={{marginTop:'20px'}}>
 
-                <h1>THOMSON ENGINEERING & CONTRACTORS</h1>
-
+                <h1 id="jumbo_one">THOMSON ENGINEERS & CONTRACTORS.</h1>
+                <Row id="jumbo_logos">
                 <Image id="certlogo" src="./logos/1.png" ></Image>
                 <Image id="certlogo" src="./logos/2.jpg" ></Image>
                 <Image id="certlogo" src="./logos/3.png" ></Image>
-                <Image id="certlogo" src="./logos/4.jpg" ></Image>
+                <Image id="certlogo" src="./logos/4.png" ></Image>
                 <Image id="certlogo" src="./logos/5.jpg" ></Image>
-                <Image id="certlogo" src="./logos/6.png" ></Image>
-                <Image id="certlogo" src="./logos/7.png" ></Image>
+                <Image id="certlogo" src="./logos/6.gif" ></Image>
+                <Image id="certlogo" src="./logos/7.gif" ></Image>
                 <Image id="certlogo" src="./logos/8.png" ></Image>
-                <Image id="certlogo" src="./logos/9.gif" ></Image>
-                <Image id="certlogo" src="./logos/10.gif" ></Image>
-                <Image id="certlogo" src="./logos/11.png" ></Image>
+                <Image id="certlogo" src="./logos/9.png" ></Image>
+                </Row>
                 <Row><Button size="lg" block ><strong>AJMERA BRANDED</strong> - MARINE NAVIGATION LIGHTS</Button></Row>
 
             </Jumbotron>

@@ -1,4 +1,5 @@
-import { Container, Row, Col, Card, Table,Image, Button } from "react-bootstrap"
+import {Row, Col, Card, Table,Image, Button } from "react-bootstrap"
+import Link from 'next/link'
 
 const Mwtswitchsocket = [
     {
@@ -85,8 +86,10 @@ export default function MwtswitchsocketPdts()
 {
     return (
         <div>
-            <Container>
+           
                 <Row><Button size="lg" block>MARINE WATER TIGHT SWITCH SOCKET</Button></Row>
+                <Row><Link href="/productEnquiryPage"><Button className="mt-2 btn-success ml-auto mr-4" size="sm">MAKE ENQUIRY
+            </Button></Link></Row>
                 <Row>
                     {
                         Mwtswitchsocket.map(mwt => (
@@ -108,7 +111,7 @@ export default function MwtswitchsocketPdts()
                     }
                 </Row>
 
-            </Container>
+         
 
         </div>
     )

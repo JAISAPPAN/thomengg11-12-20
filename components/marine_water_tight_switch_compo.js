@@ -1,4 +1,5 @@
 import { Container,Row,Col,Card, Button,Table} from "react-bootstrap"
+import Link from 'next/link'
 
 const MwtsOne =[
     {
@@ -31,8 +32,10 @@ const MwtsOne =[
 export default function Marine_water_tight_switch() {
     return (
         <div>
-        <Container>
+       
                 <Row><Button size="lg" block >MARINE WATER TIGHT SWITCH </Button></Row>
+            <Row><Link href="/productEnquiryPage"><Button className="mt-2 btn-success ml-auto mr-4" size="sm">MAKE ENQUIRY
+            </Button></Link></Row>
             <Row>
             {
                 MwtsOne.map(mwt=>(
@@ -54,7 +57,7 @@ export default function Marine_water_tight_switch() {
             }
             </Row>
             
-        </Container>
+       
             
         </div>
     )

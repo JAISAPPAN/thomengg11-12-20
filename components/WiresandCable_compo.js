@@ -10,7 +10,7 @@ export default function Wiresandcables()
             <div className="headerbottom">
                 
             </div>
-            <Row><Button id="pdt_main_hdg" variant="primary" size="lg" block>WIRES & CABLES(Products)</Button></Row>
+            <Row><Button id="pdt_main_hdg" variant="primary" size="lg" block>WIRES & CABLES - MARINE,OFFSHORE,INDUSTRIAL & RESIDENCE APPLICATIONS.</Button></Row>
             <Row>
                 <Col sm={{ span: 4 }}>
                     <p> We provide all type of Wires &Cables from approved Indianmanufactures for local

@@ -1,4 +1,5 @@
 import { Container, Row, Col, Card, Table, Button } from "react-bootstrap"
+import Link from 'next/link'
 
 const Mwtsocket = [
     {
@@ -87,7 +88,10 @@ export default function MwtsocketPdts()
         <div>
             <Container>
                 
-                <Row><Button size="lg" block >MARINE WATER TIGHT SOCKET</Button></Row>
+                <Row><Button size="lg" block >MARINE WATER TIGHT SOCKET</Button>
+                    <Row><Link href="/productEnquiryPage"><Button className="mt-2 btn-success ml-auto mr-4" size="sm">MAKE ENQUIRY
+            </Button></Link></Row>
+                </Row>
                 <Row>
                     {
                         Mwtsocket.map(mwt => (

@@ -16,59 +16,52 @@ export default function About() {
         <JumboAbout/>
         
             
-        <div>
-            
-            <Container className={style.container}>
-                    <Row id="abtfstrow">
-                        <Col sm={6}><h1 id="abtheading">Corporate Leadership</h1> </Col>
-                        <Col sm={6}> <h1 id="abtheading" >Our Major Clients</h1> </Col>
+        <div>          
+           
+                    <Row className="mb-5">
+                       
+                        <Button size="lg" block>JOBS DONE</Button>
                         
                     </Row>
             
                 <Row>
                   <Col sm={6}>
                             
-
-                            <div id="corleadership">
-                            <h4>Siby Thomas, <strong>CEO.</strong></h4> 
-                            <h4>XXXX Thomas, <strong>Finance Director.</strong></h4> 
-                            <h4>YYYY Thomas, <strong>Sales Director.</strong></h4> 
-                            <h4>ZZZZ Thomas, <strong>General Manager.</strong></h4><br></br> 
-                            </div>
-                            <div>
+                    <Row className="mr-2 mb-2 " ><Button size="lg" block>Oil and Gas Sector</Button></Row>
+                       <ul>
                             {
                                 JobsDone.map(job=>(
-                                    <ol><Button id="abt" variant="primary"><Badge variant="light" >{job.name}</Badge></Button></ol> 
+                                    <li><h4>{job.name}</h4></li>
                                 ))
                             }
-                            </div> 
+                        </ul>
                         </Col>
-                <Col sm={6}>
+                    <Col sm={6}>
                            
-                            
-                    <ul>
-                       
+                        <Row className="mr-2 mb-2 "><Button size="lg" block>Marine Sector</Button></Row>      
+                   
+                      <ul>
                        {
                            MajorClients.map(client=>(
-                               <ol><Button id="abt" variant="primary"><Badge variant="light" >{client.name}</Badge></Button></ol>
+                               <li><h4>{client.name}</h4></li>
                            ))
                        } 
-                               
-                        
-                        
-                        
-                        
-                    </ul>
+                        </ul>
+                       
                     </Col>
-                    
+
                 </Row>
-               
-            </Container>
+
+
             </div>
-            
-            <Footer/>
-            
-        </div>
+
+            <Footer />
+
+        </div>                      
+                        
+                        
+                        
+                   
     )
 }
 

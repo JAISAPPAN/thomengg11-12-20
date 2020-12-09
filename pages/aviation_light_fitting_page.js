@@ -13,9 +13,13 @@ export default function Aviation_light_fitting_pages() {
         <div>
             <Header />
             <JumboProduct />
-            <SideBar/>
+            <Row>
+                <Col sm={3}><SideBar /></Col>
+                <Col sm={9}><Aviation_light_fitting_compo /></Col>
+            </Row>
+            
 
-            <Aviation_light_fitting_compo/>
+            
             <Aviation_light_fitting1/>
             <Aviation_light_fitting1/>
 

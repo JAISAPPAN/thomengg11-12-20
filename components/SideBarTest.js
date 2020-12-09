@@ -32,16 +32,17 @@ export default function SideBar() {
                 MARINE WATER TIGHT SWITCH SOCKET </Button></Link>
             <Link href="/aviation_light_fitting_page" passHref><Button variant="info" size="md" block>
                 MARINE AVITATION LIGHT FITTING </Button></Link>
-            <Link href="/navigation_lights_page" passHref><Button variant="info" size="md" block>
+            <Link href="/ajmera_marine_nav_light_page" passHref><Button variant="info" size="md" block>
                 MARINE NAVIGATION LIGHTS </Button></Link>
-            <Link href="/hand_lamp_page" passHref><Button variant="info" size="md" block>
+            <Link href="/marine_industrial_hand_lamp_page" passHref><Button variant="info" size="md" block>
                 MARINE/INDUSTRIAL HAND LAMPS </Button></Link>
-            <Link href="/junction_box_page" passHref><Button variant="info" size="md" block>
-                MARINE WATERTIGHT JUNCTION BOXES </Button></Link>
+            
             <Link href="/manual_operate_serurity_search_lt_page" passHref><Button variant="info" size="md" block>
                 MARINE MANUAL OPERATED SECURITY SEARCH LIGHT</Button></Link>
             <Link href="/remote_operated_security_search_lt_page" passHref><Button variant="info" size="md" block>
-                MARINE REMOTE OPERATED SECURITY SEARCH LIGHT </Button></Link>     
+                MARINE REMOTE OPERATED SECURITY SEARCH LIGHT </Button></Link>  
+            <Link href="/marine_water_junction_box_page" passHref><Button variant="info" size="md" block>
+                MARINE WATERTIGHT JUNCTION BOXES </Button></Link>     
 
         </div>
     )
@@ -50,7 +51,8 @@ export default function SideBar() {
                   
 
        
-
+// <Link href="/junction_box_page" passHref><Button variant="info" size="md" block>
+//     MARINE WATERTIGHT JUNCTION BOXES </Button></Link>
         
                             
                

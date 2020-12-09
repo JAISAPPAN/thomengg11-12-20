@@ -64,14 +64,16 @@ export default function Footer() {
                             <h5>Our Address</h5>
                             <h6>Thomson Engineers&Contractors</h6>
                             <address>
-                                Poddar Samrudhi Evergreen Complex (Near Gate No.1),<br />
+                                Poddar Samrudhi Evergreen Complex, Shop No.4/4,<br />
 		              Kalyan -Karjat Road,<br /> Badlapur-E, Thane-District-421503<br />
                       Maharashtra-State<br />
                       India<br />
                                 <i className="fa fa-phone fa-lg"></i>: +91-7738640429.<br />
                                 <i className="fa fa-whatsapp fa-lg"></i>:+91-7738640429.<br />
                                 <i className="fa fa-envelope fa-lg"></i>: <a href="mailto:mannaconsultents@gmail.com">
-                                    tengineersmumbai@gmail.com</a>
+                                    tengineersmumbai@gmail.com</a><br/>
+                                <i className="fa fa-envelope fa-lg"></i>: <a href="mailto:info@thomsonengineers.com">
+                                    info@thomsonengineers.com</a>
                             </address>
                         </div>
                     

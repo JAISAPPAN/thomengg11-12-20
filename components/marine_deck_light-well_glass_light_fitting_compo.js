@@ -1,4 +1,5 @@
-import { Container, Row, Col, Card, Table,Button } from "react-bootstrap"
+import { Row, Col, Card, Table, Button } from "react-bootstrap"
+import Link from 'next/link'
 
 const marine_deck_light_well_glass_light_fitting = [
     {
@@ -44,33 +45,33 @@ const marine_deck_light_well_glass_light_fitting = [
         url: '/marine_deck_light-well_glass_light_fitting/7.png',
         Specification: 'Cast Aluminium body with MS/SS protective wire guard with clear U shape threaded glass porcelain BC / ES lamp holder with 2 way connector with 2 nos. suitable upto 100W Lamp'
     }
-    
-    
+
+
 ]
 
 const marine_deck_light_well_glass_light_fitting_Tbl = [
     {
         id: '1',
         CatalogNumber: '1112/AL',
-        
+
         Specification: 'Die cast Aluminium body with die cast protective wire guard with U shape polycarbonate milky shade with rubber gasket, 2 way connector with 2 nos. cable entries with PG cable glands. S.S. hardware. Fitting for 12W. 240V. LED with Suitable Electronic LED Driver. Fitting in the line of IP 65 protection.'
     },
     {
         id: '2',
         CatalogNumber: '1151 N/(BC/ES)',
-        
+
         Specification: '60w BC/ES Holder Nylon Body and Guard With U Shape Clear Glass. 2 nos cable entries with plastic cable glands.'
     },
     {
         id: '3',
         CatalogNumber: '2541 BC/ES',
-        
+
         Specification: 'Same as per 1151 with cast Brass body and Brass / SS wire guard.'
     },
     {
         id: '4',
         CatalogNumber: '1171 BC/ES',
-        
+
 
         Specification: 'Same as per 1151 - suitable for side wall mounting arrangements with 2 nos. cable entries Brass glands opposite side.'
     },
@@ -125,66 +126,68 @@ export default function Marine_deck_light_well_glass_light_fitting_Pdts()
 {
     return (
         <div>
-            <Container>
+           
                 <Row><Button size="lg" block>MARINE DECK LIGHT/ WELL GLASS LIGHT FITTING</Button></Row>
-                <Row>
-                    {
-                        marine_deck_light_well_glass_light_fitting.map(mwt => (
-                            <Card style={{ width: '15rem', height: '30rem' }}>
-                                <Card.Img variant="top" src={mwt.url} />
-                                <Card.Body>
-                                    <Card.Title>CATALOG NUMBER -{mwt.CatalogNumber}</Card.Title>
-                                    <Card.Text>
+            <Row><Link href="/productEnquiryPage"><Button className="mt-2 btn-success ml-auto mr-4" size="sm">MAKE ENQUIRY
+            </Button></Link></Row>
+                    <Row>
+                        {
+                            marine_deck_light_well_glass_light_fitting.map(mwt => (
+                                <Card style={{ width: '15rem', height: '30rem' }}>
+                                    <Card.Img variant="top" src={mwt.url} />
+                                    <Card.Body>
+                                        <Card.Title>CATALOG NUMBER -{mwt.CatalogNumber}</Card.Title>
+                                        <Card.Text>
 
-                                    </Card.Text>
-                                </Card.Body>
+                                        </Card.Text>
+                                    </Card.Body>
 
-                                <Card.Body>
-                                    <Card.Link href="#">{mwt.Specification}</Card.Link>
+                                    <Card.Body>
+                                        <Card.Link href="#">{mwt.Specification}</Card.Link>
 
-                                </Card.Body>
-                            </Card>
-                        ))
-                    }
-                </Row>
+                                    </Card.Body>
+                                </Card>
+                            ))
+                        }
+                    </Row>
 
-            </Container>
+           
 
         </div>
     )
 }
 
 export function Marine_deck_light_well_glass_light_fitting_Table()
-{
+            {
     return (
-        <div>
-            <Row><Button size="lg" block>Product Details</Button></Row>
-            <Table striped bordered hover variant="dark">
-                <thead>
-                    <tr>
-                        <th>Catalog Number</th>
-                        <th>Specification</th>
-                    </tr>
-                </thead>
+            <div>
+                <Row><Button size="lg" block>Product Details</Button></Row>
+                <Table striped bordered hover variant="dark">
+                    <thead>
+                        <tr>
+                            <th>Catalog Number</th>
+                            <th>Specification</th>
+                        </tr>
+                    </thead>
 
-                {
-                    marine_deck_light_well_glass_light_fitting.map(mwt => (
-                        <tbody>
-                            <tr>
-                                <td>{mwt.CatalogNumber}</td>
-                                <td>{mwt.Specification}</td>
+                    {
+                        marine_deck_light_well_glass_light_fitting.map(mwt => (
+                            <tbody>
+                                <tr>
+                                    <td>{mwt.CatalogNumber}</td>
+                                    <td>{mwt.Specification}</td>
 
-                            </tr>
+                                </tr>
 
-                        </tbody>
-                    ))
-                }
-
-
+                            </tbody>
+                        ))
+                    }
 
 
-            </Table>
 
-        </div>
+
+                </Table>
+
+            </div>
     )
 }

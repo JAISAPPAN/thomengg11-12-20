@@ -15,7 +15,11 @@ export default function Remote_operated_security_search_lt_page() {
             <h1>MARINE REMOTE OPERATED SECURITY SEARCH LIGHT</h1>
             <Header />
             <JumboProduct />
-            <Remote_operate_serurity_search_lt/>
+            <Row>
+            <Col sm={3}><SideBar/></Col>
+                <Col sm={9}><Remote_operate_serurity_search_lt /></Col>
+            </Row>
+            
             <Remote_operate_serurity_search_Tbl2/>
             <Remote_operated_serurity_search_lt_Table2/>
             <Remote_operated_serurity_search_lt_Table3/>

@@ -1,4 +1,5 @@
 import { Container, Row, Col, Card,Table,Button} from "react-bootstrap"
+import Link from 'next/link'
 
 const Mwtp = [
     {
@@ -79,9 +80,12 @@ export default function Marine_water_tight_plug_compo()
     return (
         <div>
             
-            <Container>
-                <Row><Button size="lg" block >MARINE WATER TIGHT PLUG</Button></Row>
-                <Row>
+  
+            <Row><Button size="lg" block >MARINE WATER TIGHT PLUG</Button></Row>
+            <Row><Link href="/productEnquiryPage"><Button className="mt-2 btn-success ml-auto 
+            mr-4" size="sm">MAKE ENQUIRY</Button></Link></Row>
+            
+            <Row>  
                     {
                         Mwtp.map(mwt => (
                             <Card style={{ width: '15rem',height:'56rem' }}>
@@ -102,7 +106,7 @@ export default function Marine_water_tight_plug_compo()
                     }
                 </Row>
 
-            </Container>
+         
 
         </div>
     )}

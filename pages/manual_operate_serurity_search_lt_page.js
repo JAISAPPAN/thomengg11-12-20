@@ -14,7 +14,11 @@ export default function Manual_operate_serurity_search_lt_page() {
             <h1>MARINE MANUAL OPERATED SECURITY SEARCH LIGHT</h1>
             <Header/>
             <JumboProduct/>
-            <Manual_operate_serurity_search_lt/>
+            <Row>
+            <Col sm={3}><SideBar/></Col>
+                <Col sm={9}><Manual_operate_serurity_search_lt /></Col>
+            </Row>
+            
             <Manual_operate_serurity_search_lt_Table1/>
             <Manual_operate_serurity_search_lt_Table2/>
             <Manual_operate_serurity_search_lt_Table3/>

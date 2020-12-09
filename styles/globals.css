@@ -243,3 +243,22 @@ h5{
 .jumbotron{
   height:200px;
 }
+#edit-user-form{
+  color: #0275d8;
+  border-color: #0275d8;
+  border-width: 5px;
+  margin: 20px 280px;
+}
+#enquiry-user-form{
+  color: #0275d8;
+  border-color: #0275d8;
+  border-width: 5px;
+  margin: 20px 280px;
+}
+
+#jumbo_one{
+  text-align: center;
+}
+#jumbo_logos{
+justify-content: center;
+}

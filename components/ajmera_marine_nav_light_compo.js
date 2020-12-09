@@ -1,4 +1,5 @@
 import { Card,Row,Button} from 'react-bootstrap'
+import Link from 'next/link'
 
 export const Ajmera_marine_nav_light_one =[
     {
@@ -25,6 +26,9 @@ export default function Ajmera_marine_nav_light_Pdt_one() {
     return (
         <div>
             <Row><Button size="lg" block>Singal Deck Navigation Light</Button></Row>
+            
+            <Row><Link href="/productEnquiryPage"><Button className="mt-2 btn-success ml-auto mr-4" size="sm">MAKE ENQUIRY
+            </Button></Link></Row>
             <Row>
             {Ajmera_marine_nav_light_one.map(lt=>(
                 

@@ -1,5 +1,6 @@
 
 import {Row,Card,Button,Table} from 'react-bootstrap'
+import Link from 'next/link'
 export const JunctionBox_Tbl=[
     {
         id:'1',
@@ -18,6 +19,9 @@ export const JunctionBox_Tbl=[
 export default function Marine_water_junction_box() {
     return (
         <div>
+            <Row><Button size="lg" block >MARINE WATER TIGHT JUNCTION BOX</Button></Row>
+            <Row><Link href="/productEnquiryPage"><Button className="mt-2 btn-success ml-auto mr-4" size="sm">MAKE ENQUIRY
+            </Button></Link></Row>
         <Row style={{justifyContent:"center"}}>
                
 

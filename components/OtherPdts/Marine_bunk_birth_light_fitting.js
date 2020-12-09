@@ -1,4 +1,5 @@
-import { Container, Row, Col, Card, Table,Button } from "react-bootstrap"
+import {Row, Col, Card, Table,Button } from "react-bootstrap"
+import Link from 'next/link'
 
 
 
@@ -49,7 +50,10 @@ export default function Mbblf_Pdts1()
     return (
         <div>
             <Row><Button size="lg" block>MARINE BUNK/BERTH LIGHT FITTING</Button></Row>
-            <Container>
+            <Row><Link href="/productEnquiryPage"><Button className="mt-2 btn-success ml-auto mr-4" size="sm">MAKE ENQUIRY
+            </Button></Link></Row>
+           
+           
                
                 <Row>
                     {
@@ -69,7 +73,7 @@ export default function Mbblf_Pdts1()
                     }
                 </Row>
 
-            </Container>
+           
 
         </div>
     )
@@ -79,7 +83,7 @@ export  function Mbblf_Pdts2()
     return (
         <div>
             <Row><Button size="lg" block>Marine Bunk/Berth LED Light Fitting</Button></Row>
-            <Container>
+           
                 
                 
                 <Row>
@@ -100,7 +104,7 @@ export  function Mbblf_Pdts2()
                     }
                 </Row>
 
-            </Container>
+           
 
         </div>
     )

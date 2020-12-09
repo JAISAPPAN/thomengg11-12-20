@@ -1,4 +1,5 @@
-import { Container, Row, Col, Card, Table,Button } from "react-bootstrap"
+import {Row, Col, Card, Table,Button } from "react-bootstrap"
+import Link from 'next/link'
 
 const led_well_glass_deck_light_fitting = [
     {
@@ -98,9 +99,10 @@ export default function Led_well_glass_deck_light_fitting_Pdts()
 {
     return (
         <div>
-            <Container>
+           
                 <Row><Button size="lg" block>LED WELL GLASS/DECK LIGHT FITTINGS</Button></Row>
-                
+            <Row><Link href="/productEnquiryPage"><Button className="mt-2 btn-success ml-auto mr-4" size="sm">MAKE ENQUIRY
+            </Button></Link></Row>
                 <Row>
                     {
                         led_well_glass_deck_light_fitting.map(mwt => (
@@ -122,8 +124,7 @@ export default function Led_well_glass_deck_light_fitting_Pdts()
                     }
                 </Row>
 
-            </Container>
-
+            
         </div>
     )
 }

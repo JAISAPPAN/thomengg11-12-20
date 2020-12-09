@@ -17,7 +17,7 @@ export default function index() {
         <Row>
           <Col sm={6}>
               <p><strong>THOMSON ENGINEERS & CONTRACTORS</strong> established in the year 2015. Company
-              offers a comprehensive range of services in Electrical, Fire Safety and
+              offers a comprehensive range of services in Electrical Instrument, Fire Safety and
               Mechanical - Engineering, Procurement & Construction (EPC) jobs in Marine, Ship
               building, Ship Repair, Petrochemicals, Refinery, Oil & Gas, Commercial and Residential
              Sectors.</p>
@@ -27,7 +27,7 @@ export default function index() {
               employee staff strength in variety of speciality to take-up projects and
             services.</p>
 
-              <p>Firm is registered with Hindustan Petroleum Corporation Ltd (HPCL), Mumbai Refinery,
+              <p>Firm is registered with Hindustan Petroleum Corporation Ltd (HPCL),Refinery,Oil Terminals,
              Cochin Shipyard Ltd (CSL-MSRU) and Naval Dockyard Mumbai.</p>
           </Col>
           <Col sm={6}>
@@ -41,8 +41,7 @@ export default function index() {
                     alt="First slide"
                   />
                   <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    
                   </Carousel.Caption>
                 </Carousel.Item>
               
@@ -53,8 +52,7 @@ export default function index() {
                     alt="First slide"
                   />
                   <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                   
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -65,8 +63,7 @@ export default function index() {
                   />
 
                   <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -77,8 +74,7 @@ export default function index() {
                   />
 
                   <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    
                   </Carousel.Caption>
                 </Carousel.Item>
               </Carousel>

@@ -18,7 +18,7 @@ export  const ServiceAreasTbl = [
         MechanicalInstallation: 'Fabrication ',
         InspectionAndAuditService: 'Mechanical-Marine, Oil&Gas',
         EngieeringService: 'Storage Tank Design',
-        ProductsSupply: 'Electrical switch boards & Panel',
+        ProductsSupply: 'Electrical switch boards & Panel Boards',
         CodesAndStandard: 'IS'
     },
     {
@@ -34,7 +34,7 @@ export  const ServiceAreasTbl = [
     {
         id: '4',
         ElectricalInstallation: ' Panel Boards',
-        FireSafetyInstallation: 'Alarm Signals',
+        FireSafetyInstallation: 'Fire Alarm Systems',
         MechanicalInstallation: 'Structural',
         InspectionAndAuditService: '',
         EngieeringService: 'Fire Control Plan  Design	',
@@ -91,13 +91,13 @@ export default function ServiceAreasPdt() {
             <Table id="#marine_sec_hdg" striped bordered hover variant="info">
                 <thead>
                     <tr>
-                        <th>ElectricalInstallation</th>
-                        <th>FireSafetyInstallation</th>
-                        <th>MechanicalInstallation</th>
-                        <th>Inspection&AuditService</th>
-                        <th>EngieeringService</th>
-                        <th>ProductsSupply</th>
-                        <th>Codes&Standard</th>
+                        <th>Electrical Installation</th>
+                        <th>Fire Safety Installation</th>
+                        <th>Mechanical Installation</th>
+                        <th>Inspection & Audit Service</th>
+                        <th>Engieering Service</th>
+                        <th>Products Supply</th>
+                        <th>Codes & Standard</th>
                     </tr>
                 </thead>
 

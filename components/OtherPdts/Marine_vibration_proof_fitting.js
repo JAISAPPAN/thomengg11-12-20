@@ -1,4 +1,6 @@
-import {Card, Container, Table,Row, Button} from 'react-bootstrap'
+import {Card,
+    Table,Row, Button} from 'react-bootstrap'
+import Link from 'next/link'
 
 export const Marine_vibration_proof_fitting_Tbl_one = [
 
@@ -27,6 +29,9 @@ export default function Mvpf_Pdts1()
         <div>
             
             <Row><Button size="lg" block>MARINE VIBRATION PROOF FITTING</Button></Row>
+            <Row><Link href="/productEnquiryPage"><Button className="mt-2 btn-success ml-auto mr-4" size="sm">MAKE ENQUIRY
+            </Button></Link>
+            </Row>
             <Row >
 
                     {

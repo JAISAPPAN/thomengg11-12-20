@@ -1,4 +1,5 @@
 import {Container,Row,Col,Card,Table,Button} from 'react-bootstrap'
+import Link from 'next/link'
 
 export const Marine_buklhead_light_fittings_Tbl_one =[
    
@@ -29,7 +30,12 @@ export default function Mblf_Pdts1()
 {
     return (
         <div>
-            <Row><Button size="lg" block>MARINE BULKHEAD FITTING</Button></Row>
+            <Row><Button size="lg" block>MARINE BULKHEAD FITTING</Button>
+            
+            </Row>
+            <Row><Link href="/productEnquiryPage"><Button 
+            className="mt-2 btn-success ml-auto mr-4"size="sm">MAKE ENQUIRY
+            </Button></Link></Row>
            <Row>
                         {
                             Marine_buklhead_light_fittings_Tbl_one.map(mwt => (

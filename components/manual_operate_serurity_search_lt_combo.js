@@ -1,5 +1,6 @@
 
 import {Card,Table,Row,Button} from 'react-bootstrap'
+import Link from 'next/link'
 export const Manual_operate_serurity_search_lt_Tbl1 =[
     {
         id:'1',
@@ -19,7 +20,10 @@ export const Manual_operate_serurity_search_lt_Tbl1 =[
 export default function Manual_operate_serurity_search_lt() {
     return (
         <div>
-        <Row>
+            <Row><Button size="lg" block>MARINE MANUEL OPERATED SECURITY SEARCH LIGHT</Button></Row>
+            <Row><Link href="/productEnquiryPage"><Button className="mt-2 btn-success ml-auto mr-4" size="sm">MAKE ENQUIRY
+            </Button></Link></Row>
+            <Row>
             {
                 Manual_operate_serurity_search_lt_Tbl1 .map(manual=>(
                     <Card>

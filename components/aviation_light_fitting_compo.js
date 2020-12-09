@@ -1,5 +1,6 @@
 
 import { Row,Card,Table,Button} from 'react-bootstrap'
+import Link from 'next/link'
 export const Pdt =[
     {
         id:'1',
@@ -43,6 +44,8 @@ import React from 'react'
 export default function Aviation_light_fitting_compo() {
     return (
         <div>
+            <Row><Button size="lg" block>MARINE AVIATION LIGHT FITTINGS</Button></Row>
+            <Row><Link href="/productEnquiryPage"><Button className="mt-2 btn-success ml-auto mr-4" size="sm">MAKE ENQUIRY</Button></Link></Row>
             {
                 Pdt.map(avi=>(
                     <Card>
