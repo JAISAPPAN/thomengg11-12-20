@@ -1,23 +1,24 @@
 import Header from './Header'
 import Footer from './Footer'
 
-import {JumboProduct} from '../components/Jumbo'
-import Wiresandcables,{ WiresandcablesPic} from '../components/WiresandCable_compo'
+import { JumboProduct } from '../components/Jumbo'
+import Wiresandcables, { WiresandcablesPic } from '../components/WiresandCable_compo'
 
-export default function WiresandcablesPage() {
+export default function WiresandcablesPage()
+{
     return (
         <div>
-            <Header/>
-            <JumboProduct/>
-                
+            <Header />
+            <JumboProduct />
+
             <div >
-                
+
             </div>
-            
-            <WiresandcablesPic/>
+
+            <WiresandcablesPic />
             <Wiresandcables />
-                
-            <Footer/>
+
+            <Footer />
         </div>
     )
 }

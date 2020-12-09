@@ -1,5 +1,5 @@
 import {Container,Row,Col,Button,Figure} from 'react-bootstrap'
-import Pagei from '../components/Pagei'
+
 import Flame_proof_pdts_compo from '../components/flame_proof_pdts_compo'
 import { JumboProduct } from '../components/Jumbo'
 

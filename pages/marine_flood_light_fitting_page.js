@@ -4,7 +4,7 @@ import Marine_flood_light_fitting_Pdt1, { Marine_flood_light_fitting_Pdt2,
     from '../components/marine_flood_light_fitting_compo'
 import Header from './Header';
 import Footer from './Footer'
-//import SideBar from '../components/SideBarTest';
+
 import { JumboProduct } from '../components/Jumbo'
 import SideBar from '../components/SideBarTest'
 

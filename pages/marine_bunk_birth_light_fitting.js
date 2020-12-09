@@ -1,7 +1,7 @@
 import Mbblf_Pdts1, { Mbblf_Table1, Mbblf_Pdts2, Mbblf_Tbl2, MarineBunk_Para} from '../components/OtherPdts/Marine_bunk_birth_light_fitting' 
 import Header from './Header';
 import Footer from './Footer'
-//import SideBar from '../components/SideBarTest';
+
 import { JumboProduct } from '../components/Jumbo'
 import {Row,Col} from 'react-bootstrap'
 import SideBar from '../components/SideBarTest'
