@@ -36,17 +36,21 @@ const UserPage = ({ user }) =>
       <Card>
         <Card.Header><h1>User Feedback</h1></Card.Header>
         <Card.Body>
-          <Card.Title> <h3>{user.first_name} {user.last_name}</h3></Card.Title>
+              <Card.Title><h3><label>Full Name:</label></h3><h3>{user.first_name} {user.last_name}</h3></Card.Title>
           <Card.Text>
+                <h3><label>Phone Number:</label></h3><h3>{user.ph_number}</h3>
+          </Card.Text>
+              <Card.Text>
+              <h3><label>Comments/Enquiry:</label></h3>
             {user.feedback}
     </Card.Text>
           <footer>
             <div className="btn-container">
 
               <Link href="/[id]/edit" as={`/${user._id}/edit`}>
-                <Button size="lg" className="btn edit">Edit</Button>
+                <Button size="lg" className="btn-success">Edit</Button>
               </Link> 
-              <Button size="lg" onClick={handleDelete}>
+              <Button className="ml-2 btn-danger"size="lg" onClick={handleDelete}>
                     Delete
             </Button>
               {message && <p>{message}</p>}

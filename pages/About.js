@@ -1,6 +1,6 @@
 
 import Header from './Header'
-import {Container,Row,Col,Badge,Button, Jumbotron} from 'react-bootstrap'
+import {Container,Row,Col,Badge,Button, Jumbotron,Card} from 'react-bootstrap'
 
 import { MajorClients } from '../components/MajorClients'
 
@@ -28,12 +28,15 @@ export default function About() {
                   <Col sm={6}>
                             
                     <Row className="mr-2 mb-2 " ><Button size="lg" block>Oil and Gas Sector</Button></Row>
-                       <ul>
+                        <ul> <Card>
                             {
+                               
                                 JobsDone.map(job=>(
                                     <li><h4>{job.name}</h4></li>
                                 ))
                             }
+                        </Card>
+
                         </ul>
                         </Col>
                     <Col sm={6}>
@@ -41,11 +44,13 @@ export default function About() {
                         <Row className="mr-2 mb-2 "><Button size="lg" block>Marine Sector</Button></Row>      
                    
                       <ul>
+                      <Card>
                        {
                            MajorClients.map(client=>(
                                <li><h4>{client.name}</h4></li>
                            ))
                        } 
+                            </Card>
                         </ul>
                        
                     </Col>

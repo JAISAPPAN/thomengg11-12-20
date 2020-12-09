@@ -16,11 +16,14 @@ export default function Header() {
                     
 
                     <NavDropdown title={<Button size="lg block">Products</Button>} id="collasible-nav-dropdown">
-                        <Link href="/marine_vibration_proof_fitting_page"><Button size="sm" block>Marine Products</Button></Link>
+                        
                         <Link href="Mct"><Button size="sm" block >Multi Cable Transit</Button></Link>
+                        
                         <Link href="Flameproof"><Button size="sm" block>Flame Proof Products</Button></Link>
                         <Link href="Rubbermat"><Button size="sm" block>Insulating Rubber Mats</Button></Link>
                         <Link href="Wiresandcables"><Button size="sm" block>Wires and Cables</Button></Link>
+                        <Link href="fire_safety_items_page"><Button size="sm" block>Fire Safety Items</Button></Link>
+                        <Link href="/marine_vibration_proof_fitting_page"><Button size="sm" block>Marine Products</Button></Link>
                                           
                        
                     </NavDropdown>

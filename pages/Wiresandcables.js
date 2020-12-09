@@ -13,11 +13,13 @@ export default function WiresandcablesPage() {
             <div >
                 
             </div>
-            <Wiresandcables className="headerbottom"/>
+            
             <WiresandcablesPic/>
+            <Wiresandcables />
                 
             <Footer/>
         </div>
     )
 }
 
+//className = "headerbottom"

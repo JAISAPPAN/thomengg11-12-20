@@ -11,11 +11,11 @@ export default function Flameproof() {
         <div>
             <Header/>
             <JumboProduct/>
-            <Row><Button id="pdt_main_hdg" variant="primary" size="lg" block>FLAME PROOF ITEMS(PRODUCTS)</Button></Row>
+            <Row><Button id="pdt_main_hdg" variant="primary" size="lg" block>FLAME PROOF ITEMS</Button></Row>
             <Flame_proof_pdts_compo/>
-            <Container>             
-                            
-                <Row>
+                        
+                
+                <Row id="flameproofmargin">
                     <Col sm={{span:4, order:1}}>
                         <Row><Button id="pdt_main_hdg" variant="primary" size="lg" block>Flame Proof Items(Products)</Button></Row>
   
@@ -52,7 +52,7 @@ export default function Flameproof() {
                 </Row>
                 
                 
-            </Container>
+     
            
             <Footer/>
         </div>

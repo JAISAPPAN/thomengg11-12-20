@@ -1,4 +1,4 @@
-import {Container,Row,Col,Image} from 'react-bootstrap'
+import {Container,Row,Col,Button} from 'react-bootstrap'
 import Header from './Header'
 import {JumboProduct} from '../components/Jumbo'
 import Footer from './Footer'
@@ -12,23 +12,13 @@ export default function Mct() {
             <JumboProduct/>
         
         
-            <div className="headerbottom">
+            <div >
             <Container>
             <Row>
-                        <Mctpdts />
+            <Mctpdts />
             </Row>
-            <Row>
-            <Col sm={12}>
+                    <Row><Button size="lg" block >APPLICATIONS</Button></Row>
             
-            </Col>
-            
-            </Row>
-            <Row>
-            <Col id="mct_col" sm={6}>
-                  <h1>Multi Cable Transit(MCT) Oroducts</h1>        
-            </Col>
-                 <Col id="mct_col" sm={6}> <h1>Applications</h1></Col>
-            </Row>
                 <Row id="one">
                     <Col sm={6}>
                     

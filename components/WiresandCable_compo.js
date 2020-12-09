@@ -1,5 +1,6 @@
 
 import { Button, Row, Col, Image, Card } from 'react-bootstrap'
+import Link from 'next/link'
 
 export default function Wiresandcables()
 {
@@ -10,7 +11,7 @@ export default function Wiresandcables()
             <div className="headerbottom">
                 
             </div>
-            <Row><Button id="pdt_main_hdg" variant="primary" size="lg" block>WIRES & CABLES - MARINE,OFFSHORE,INDUSTRIAL & RESIDENCE APPLICATIONS.</Button></Row>
+            
             <Row>
                 <Col sm={{ span: 4 }}>
                     <p> We provide all type of Wires &Cables from approved Indianmanufactures for local
@@ -44,49 +45,64 @@ export default function Wiresandcables()
 
 export const Wirespics = [
     {
-        url: 'Wires_and_ Cables/1.jpeg'
+        url: 'Wires_and_ Cables/1.jpeg',
+        name:'NAME?'
     },
     {
-        url: 'Wires_and_ Cables/2.jpg'
+        url: 'Wires_and_ Cables/2.jpg',
+        name: 'NAME?'
     },
     {
-        url: 'Wires_and_ Cables/3.jpeg'
+        url: 'Wires_and_ Cables/3.jpeg',
+        name: 'NAME?'
     },
     {
-        url: 'Wires_and_ Cables/4.jpeg'
+        url: 'Wires_and_ Cables/4.jpeg',
+        name: 'NAME?'
     },
     {
-        url: 'Wires_and_ Cables/5.jpeg'
+        url: 'Wires_and_ Cables/5.jpeg',
+        name: 'NAME?'
     },
     {
-        url: 'Wires_and_ Cables/6.jpg'
+        url: 'Wires_and_ Cables/6.jpg',
+        name: 'NAME?'
     },
     {
-        url: 'Wires_and_ Cables/7.jpg'
+        url: 'Wires_and_ Cables/7.jpg',
+        name: 'NAME?'
     },
     {
-        url: 'Wires_and_ Cables/8.jpg'
+        url: 'Wires_and_ Cables/8.jpg',
+        name: 'NAME?'
     },
     {
-        url: 'Wires_and_ Cables/9.jpg'
+        url: 'Wires_and_ Cables/9.jpg',
+        name: 'NAME?'
     },
     {
-        url: 'Wires_and_ Cables/10.jpg'
+        url: 'Wires_and_ Cables/10.jpg',
+        name: 'NAME?'
     },
     {
-        url: 'Wires_and_ Cables/11.jpeg'
+        url: 'Wires_and_ Cables/11.jpg',
+        name: 'NAME?'
     },
     {
-        url: 'Wires_and_ Cables/12.jpg'
+        url: 'Wires_and_ Cables/12.jpg',
+        name: 'NAME?'
     },
     {
-        url: 'Wires_and_ Cables/13.jpg'
+        url: 'Wires_and_ Cables/13.jpg',
+        name: 'NAME?'
     },
     {
-        url: 'Wires_and_ Cables/14.jpg'
+        url: 'Wires_and_ Cables/14.jpg',
+        name: 'NAME?'
     },
     {
-        url: 'Wires_and_ Cables/15.jpg'
+        url: 'Wires_and_ Cables/15.jpg',
+        name: 'NAME?'
     }
 ]
 
@@ -95,16 +111,22 @@ export const Wirespics = [
 export function WiresandcablesPic()
 {
     return (
-        <div wiresandcables_margin>
-        <Row>
-            {
-                Wirespics.map(pic =>
-                (
-                    <Card>
-                            <Card.Img id="wiresandcables_img" src={pic.url} />
-                    </Card>
-                ))
-            }
+        <div>
+            <Row><Button id="pdt_main_hdg" variant="primary" size="lg" block>WIRES & CABLES - MARINE,OFFSHORE,INDUSTRIAL & RESIDENCE APPLICATIONS.</Button></Row>
+            <Row>
+                {
+                    Wirespics.map(wire => (
+
+                        <Card style={{ width: '21rem' }}>
+                            <Image className="mctimg" src={wire.url} rounded />
+                            <Row>
+                                <Card.Text><Button size="sm" className="btn-dark ml-5 mt-2">{wire.name}</Button></Card.Text>
+                                <Card.Text><Link href="/productEnquiryPage"><Button size="sm" className="btn-success ml-5 mt-2">ENQUIRE</Button></Link></Card.Text>
+                            </Row>
+                        </Card>
+
+                    ))
+                }
             </Row>
         </div>
     )

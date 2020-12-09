@@ -1,7 +1,8 @@
 
-import {Row,Card} from 'react-bootstrap'
+import {Row,Card,Image,Button} from 'react-bootstrap'
+import Link from 'next/link'
 
-const Mctpdts1 = [
+const flameproofpdts = [
     {
         id: '1',
         imgurl: '/flameproof/1.jpg'
@@ -110,15 +111,23 @@ const Mctpdts1 = [
 export default function Flame_proof_pdts_compo() {
     return (
         <div>
-        <Row>
-            {
-                Mctpdts1.map(flame=>(
-                    <Card>
-                    <Card.Img style={{ width:'17rem',margin:'1rem',height:'18rem'}}src={flame.imgurl}/>
-                    </Card>
-                ))
-            }
+            
+            <Row>
+                {
+                    flameproofpdts.map(flame => (
+
+                        <Card style={{ width: '21rem' }}>
+                            <Image className="mctimg" src={flame.imgurl} rounded />
+                            <Row>
+                                <Card.Text><Button size="sm" className="btn-dark ml-5 mt-2">{flame.name}</Button></Card.Text>
+                                <Card.Text><Link href="/productEnquiryPage"><Button size="sm" className="btn-success ml-5 mt-2">ENQUIRE</Button></Link></Card.Text>
+                            </Row>
+                        </Card>
+
+                    ))
+                }
             </Row>
+            <hr/>
         </div>
     )
 }
