@@ -26,28 +26,29 @@ export default function Remote_operate_serurity_search_lt_One()
             <Row>
                 {
                     Remote_operate_serurity_search_lt_Tbl1.map(manual => (
-                        <Card style={{marginLeft:"auto",marginRight:"auto",width:"50%"}}>
+                        <Card style={{ marginLeft: "auto", marginRight: "auto", width: "50%" }}>
                             <Card.Img src={manual.url} />
                             <Card.Text>{manual.cat}</Card.Text>
                         </Card>
                     ))
                 }
             </Row>
-           
+
         </div>
     )
 }
 
 
 
-export function Remote_operate_serurity_search_lt_Two() {
+export function Remote_operate_serurity_search_lt_Two()
+{
     return (
         <div>
             <Row><Button className="mt-3" size="lg" block>MANUEL SEARCH LIGHT DRAWING</Button></Row>
             <Row>
                 <Card style={{ marginLeft: "auto", marginRight: "auto", width: "50%" }}>
                     <Card.Img src="/MARINE REMOTE OPERATED SECURITY SEARCH LIGHT/3.jpg" />
-                   
+
                 </Card>
             </Row>
         </div>
@@ -58,26 +59,26 @@ export function Remote_operate_serurity_search_lt_Two() {
 export const Remote_operate_serurity_search_lt_Tb2 = [
     {
         id: '1',
-        
+
         spec: 'Remote operated security search light suitable for LED and Halogen lamp'
     },
     {
         id: '2',
-        
-        spec:'Aluminum body light Fitting for betterment of heat circulation' 
+
+        spec: 'Aluminum body light Fitting for betterment of heat circulation'
     },
     {
         id: '3',
-        spec:'Mirror polished heavy duty long range glass reflector with front openable aluminum ring and clear heat resistance toughened glass for halogen lamp fitting'
+        spec: 'Mirror polished heavy duty long range glass reflector with front openable aluminum ring and clear heat resistance toughened glass for halogen lamp fitting'
     },
     {
         id: '4',
-        
+
         spec: 'Fitting suitable for Horizontal and Vertical movement with the help of wired remote control.'
     },
     {
         id: '5',
-        spec:'Heavy duty high power LED with long range lenses with front openable aluminum ring and clear heat resitance toughened glass for LED fitting'
+        spec: 'Heavy duty high power LED with long range lenses with front openable aluminum ring and clear heat resitance toughened glass for LED fitting'
     }
 ]
 
@@ -89,13 +90,13 @@ export function Remote_operate_serurity_search_Tbl2()
         <div>
             <Row><Button className="mt-3" size="lg" block>Product Details</Button></Row>
             <Table striped bordered hover variant="info">
-                
+
 
                 {
-                    Remote_operate_serurity_search_lt_Tb2 .map(manuel => (
+                    Remote_operate_serurity_search_lt_Tb2.map(manuel => (
                         <tbody>
                             <tr>
-                               
+
 
                                 <td>{manuel.spec}</td>
 
@@ -119,12 +120,12 @@ export const Remote_operate_serurity_search_lt_Tbl3 = [
         cat1: 'Remote Operated',
         cat2: 'Remote Operated',
         cat3: 'Remote Operated',
-        cat4:'Remote Operated'
+        cat4: 'Remote Operated'
     },
     {
-        id:'2',
-        cat:'Sourcing lamp',
-        cat2:'Halogen',
+        id: '2',
+        cat: 'Sourcing lamp',
+        cat2: 'Halogen',
         cat2: 'LED',
         cat3: 'Halogen',
         cat4: 'LED',
@@ -132,12 +133,12 @@ export const Remote_operate_serurity_search_lt_Tbl3 = [
     {
         id: '3',
         cat: 'Lamp Watt',
-        cat2: '1000W',
-        cat2: '200W',
-        cat3: '2000W',
-        cat4: '300W',
+        cat2: '1000 W',
+        cat2: '200 W',
+        cat3: '2000 W',
+        cat4: '300 W',
     },
-    
+
     {
         id: '4',
         cat: 'Lamp Voltage',
@@ -234,7 +235,7 @@ export const Remote_operate_serurity_search_lt_Tbl3 = [
         cat3: '23 Kgs.',
         cat4: '23 Kgs.',
     },
-    
+
 
 ]
 
@@ -286,8 +287,8 @@ export const Remote_operate_serurity_search_lt_Tbl4 = [
         cat2: '330',
         cat3: '350',
         cat4: '345',
-        cat5:'205',
-        weight:'23 Kgs.'
+        cat5: '205',
+        weight: '23 Kgs.'
 
     },
     {
@@ -323,7 +324,7 @@ export const Remote_operate_serurity_search_lt_Tbl4 = [
         weight: '28 Kgs'
 
     }
-    
+
 ]
 
 

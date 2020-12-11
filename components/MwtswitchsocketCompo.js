@@ -6,19 +6,19 @@ const Mwtswitchsocket = [
         id: '401',
         CatalogNumber: '2611 N/SS',
         url: '/mwtswitchsocket/401.png',
-        Specification: '10A. 230V. 3 pin Nylon body socket with porcelain insertion with Brass terminals and 10A. 230V. double pole rotary switch with nylon knob for On/Off. 2 nos. Cable entries with Plastic cable glands. Plastic/Metallic cap with chain for socket when not in use. SS Hardware.'
+        Specification: '10A. 230V. 3 pin Nylon body socket with porcelain insertion with Brass terminals and 10A. 230V. double pole rotary switch with nylon knob for On/Off. 2\' nos. Cable entries with Plastic cable glands. Plastic/Metallic cap with chain for socket when not in use. SS Hardware.'
     },
     {
         id: '402',
         CatalogNumber: '2611/SS',
         url: '/mwtswitchsocket/402.png',
-        Specification: '10A. 230V. 3 pin Aluminium body socket with porcelain insertion with Brass terminals and 10A. 230V. double pole rotary switch with nylon knob for On/Off. 2 nos. Cable entries with Plastic cable glands. Plastic/Metallic cap with chain for socket when not in use. SS Hardware.'
+        Specification: '10A. 230V. 3 pin Aluminium body socket with porcelain insertion with Brass terminals and 10A. 230V. double pole rotary switch with nylon knob for On/Off. 2\' nos. Cable entries with Plastic cable glands. Plastic/Metallic cap with chain for socket when not in use. SS Hardware.'
     },
     {
         id: '403',
         CatalogNumber: '2533/SS',
         url: '/mwtswitchsocket/403.png',
-        Specification: '10A. 230V. 3 pin Aluminium body socket with porcelain insertion with Brass terminals and 10A. 230V. double pole rotary switch with nylon knob for On/Off. 2 nos. Cable entries with Plastic cable glands. Plastic/Metallic cap with chain for socket when not in use. Brass.'
+        Specification: '10A. 230V. 3 pin Aluminium body socket with porcelain insertion with Brass terminals and 10A. 230V. double pole rotary switch with nylon knob for On/Off. 2\' nos. Cable entries with Plastic cable glands. Plastic/Metallic cap with chain for socket when not in use. Brass.'
 
     },
     {
@@ -34,19 +34,19 @@ const MwtswitchsocketTbl = [
         id: '401',
         CatalogNumber: '2611 N/SS',
        
-        Specification: '10A. 230V. 3 pin Nylon body socket with porcelain insertion with Brass terminals and 10A. 230V. double pole rotary switch with nylon knob for On/Off. 2 nos. Cable entries with Plastic cable glands. Plastic/Metallic cap with chain for socket when not in use. SS Hardware.'
+        Specification: '10A. 230V. 3 pin Nylon body socket with porcelain insertion with Brass terminals and 10A. 230V. double pole rotary switch with nylon knob for On/Off. 2\' nos. Cable entries with Plastic cable glands. Plastic/Metallic cap with chain for socket when not in use. SS Hardware.'
     },
     {
         id: '402',
         CatalogNumber: '2611/SS',
        
-        Specification: '10A. 230V. 3 pin Aluminium body socket with porcelain insertion with Brass terminals and 10A. 230V. double pole rotary switch with nylon knob for On/Off. 2 nos. Cable entries with Plastic cable glands. Plastic/Metallic cap with chain for socket when not in use. SS Hardware.'
+        Specification: '10A. 230V. 3 pin Aluminium body socket with porcelain insertion with Brass terminals and 10A. 230V. double pole rotary switch with nylon knob for On/Off. 2\' nos. Cable entries with Plastic cable glands. Plastic/Metallic cap with chain for socket when not in use. SS Hardware.'
     },
     {
         id: '403',
         CatalogNumber: '2533/SS',
        
-        Specification: '10A. 230V. 3 pin Aluminium body socket with porcelain insertion with Brass terminals and 10A. 230V. double pole rotary switch with nylon knob for On/Off. 2 nos. Cable entries with Plastic cable glands. Plastic/Metallic cap with chain for socket when not in use. Brass.'
+        Specification: '10A. 230V. 3 pin Aluminium body socket with porcelain insertion with Brass terminals and 10A. 230V. double pole rotary switch with nylon knob for On/Off. 2\' nos. Cable entries with Plastic cable glands. Plastic/Metallic cap with chain for socket when not in use. Brass.'
 
     },
     {
@@ -66,19 +66,19 @@ const MwtswitchsocketTbl = [
         id: '406',
         CatalogNumber: '2623 N/SS',
 
-        Specification: '10A. 230V. 3 pin Nylon body socket with porcelain insertion with Brass terminals and 10A. 230V. double pole rotary switch with nylon knob for On/Off. 2 nos. Cable entries with Plastic cable glands. Plastic/Metallic cap with chain for socket when not in use. SS Hardware'
+        Specification: '10A. 230V. 3 pin Nylon body socket with porcelain insertion with Brass terminals and 10A. 230V. double pole rotary switch with nylon knob for On/Off. 2\' nos. Cable entries with Plastic cable glands. Plastic/Metallic cap with chain for socket when not in use. SS Hardware'
     },
     {
         id: '407',
         CatalogNumber: '2619/SS',
 
-        Specification: '30A, 415V. 4 pin (3pin & E) cast Aluminium body socket with porcelain insertion and suitable T.P. Rotary switch. 2 nos. cable entries with brass cable glands. Aluminium/Plastic cap with chain for socket when not in use. SS hardware. Switch-socket available with cast Aluminium 4 pin suitable plug top.'
+        Specification: '30A, 415V. 4 pin (3pin & E) cast Aluminium body socket with porcelain insertion and suitable T.P. Rotary switch. 2\' nos. cable entries with brass cable glands. Aluminium/Plastic cap with chain for socket when not in use. SS hardware. Switch-socket available with cast Aluminium 4 pin suitable plug top.'
     },
     {
         id: '408',
         CatalogNumber: '2519/SS',
 
-        Specification: '30A, 415V. 4 pin (3pin & E) cast Brass body socket with porcelain insertion and suitable T.P. Rotary switch. 2 nos. cable entries with brass cable glands. Aluminium/Plastic cap with chain for socket when not in use. SS hardware. Switch-socket available with cast Brass 4 pin suitable plug top.'
+        Specification: '30A, 415V. 4 pin (3pin & E) cast Brass body socket with porcelain insertion and suitable T.P. Rotary switch. 2\' nos. cable entries with brass cable glands. Aluminium/Plastic cap with chain for socket when not in use. SS hardware. Switch-socket available with cast Brass 4 pin suitable plug top.'
     },
 ]
 

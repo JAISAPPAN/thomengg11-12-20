@@ -12,7 +12,7 @@ export default function Footer() {
                             <h5 id="footer_h5">Links</h5>
                             <ul className="list-unstyled">
                                 <li><Link href="/" passHref><Nav.Link>Home</Nav.Link></Link></li> 
-                                <li><Link href="/About" passHref ><Nav.Link >About US</Nav.Link></Link></li>
+                                <li><Link href="/about" passHref ><Nav.Link >About US</Nav.Link></Link></li>
                                 <li><Link href="/Service" passHref ><Nav.Link >Services</Nav.Link></Link></li>  
                                 <Link href="/Contact">Contact Us</Link>  
                                 
@@ -106,7 +106,3 @@ export default function Footer() {
 }
 
 
-
-// <li><Link to="/aboutus">About Us</Link></li>
-//                                 <li><Link to="/menu">Menu</Link></li>
-//                                 <li><Link to="/contactus">Contact Us</Link></li>

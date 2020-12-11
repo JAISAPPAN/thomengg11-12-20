@@ -52,27 +52,27 @@ export const Manual_operate_serurity_search_lt_Tbl2=[
     {
         id: '2',
         cat: '2572',
-        spec: '----do---- sutable up to 300W. Halogen Lamp'
+        spec: '----do---- sutable up to 300 W. Halogen Lamp'
     },
     {
         id: '3',
         cat: '2573',
-        spec: '----do---- sutable up to 200W. Halogen Lamp'
+        spec: '----do---- sutable up to 200 W. Halogen Lamp'
     },
     {
         id: '4',
         cat: '1571',
-        spec: 'Security Search Light suitable upto 1000W Halogen lamp. Aluminium body with MS wheel house assembly for Horizontal & Vertical movements. Powder coated finishing, mirror glass reflector with front Aluminium ring and toughened glass fitting'
+        spec: 'Security Search Light suitable upto 1000 W Halogen lamp. Aluminium body with MS wheel house assembly for Horizontal & Vertical movements. Powder coated finishing, mirror glass reflector with front Aluminium ring and toughened glass fitting'
     },
     {
         id: '5',
         cat: '1572',
-        spec: '---do--- suitable up to 300W, Halogen Lamp'
+        spec: '---do--- suitable up to 300 W, Halogen Lamp'
     },
     {
         id: '6',
         cat: '1573',
-        spec: '---do--- suitable up to 2000W, Halogen Lamp'
+        spec: '---do--- suitable up to 2000 W, Halogen Lamp'
     },
 ]
 
@@ -123,16 +123,16 @@ export const Manual_operate_serurity_search_lt_Tbl3=[
     {
         id: '2',
         cat: 'Lamp Watt',
-        cat1: '1000W',
-        cat2: '150 - 300W',
-        cat3: '2000W'
+        cat1: '1000 W',
+        cat2: '150 W - 300 W',
+        cat3: '2000 W'
     },
     {
         id: '3',
         cat: 'Lamp Voltage',
-        cat1: '240V',
-        cat2: '24V',
-        cat3: '240V'
+        cat1: '240 V',
+        cat2: '24 V',
+        cat3: '240 V'
     },
     {
         id: '4',
@@ -186,23 +186,23 @@ export const Manual_operate_serurity_search_lt_Tbl3=[
     {
         id: '11',
         cat: 'A (Approx)',
-        cat1: '450mm or On Request',
-        cat2: '370mm or On Request',
-        cat3: '450mm or On Request'
+        cat1: '450 mm or On Request',
+        cat2: '370 mm or On Request',
+        cat3: '450 mm or On Request'
     },
     {
         id: '12',
         cat: 'B (Approx)',
-        cat1: '375mm',
-        cat2: '310mm',
-        cat3: '425mm'
+        cat1: '375 mm',
+        cat2: '310 mm',
+        cat3: '425 mm'
     },
     {
         id: '13',
         cat: 'C (Approx)',
-        cat1: '350mm',
-        cat2: '230mm',
-        cat3: '290mm'
+        cat1: '350 mm',
+        cat2: '230 mm',
+        cat3: '290 mm'
     },
     {
         id: '14',
@@ -213,9 +213,9 @@ export const Manual_operate_serurity_search_lt_Tbl3=[
     }, {
         id: '15',
         cat: 'D (Approx)',
-        cat1: '385mm',
-        cat2: '255mm',
-        cat3: '410mm'
+        cat1: '385 mm',
+        cat2: '255 mm',
+        cat3: '410 mm'
     },
     {
         id: '16',
@@ -297,15 +297,15 @@ export const Manual_operate_serurity_search_lt_Tbl4 = [
     {
         id: '2',
         cat: 'Lamp Watt',
-        cat1: '200W',
-        cat2: '300W'
+        cat1: '200 W',
+        cat2: '300 W'
 
     },
     {
         id: '3',
         cat: 'Lamp vOLTAGE',
-        cat1: '240V',
-        cat2: '240V'
+        cat1: '240 V',
+        cat2: '240 V'
 
     },
     {
@@ -360,29 +360,29 @@ export const Manual_operate_serurity_search_lt_Tbl4 = [
     {
         id: '11',
         cat: 'A (Approx)',
-        cat1: '450mm or On Request',
-        cat2: '450mm or On Request'
+        cat1: '450 mm or On Request',
+        cat2: '450 mm or On Request'
 
     },
     {
         id: '12',
         cat: 'B (Approx)',
-        cat1: '375mm',
-        cat2: '425mm'
+        cat1: '375 mm',
+        cat2: '425 mm'
 
     },
     {
         id: '13',
         cat: 'C (Approx)',
-        cat1: '350mm',
-        cat2: '390mm'
+        cat1: '350 mm',
+        cat2: '390 mm'
 
     },
     {
         id: '14',
         cat: 'D (Approx)',
-        cat1: '385mm',
-        cat2: '410mm'
+        cat1: '385 mm',
+        cat2: '410 mm'
 
     },
     {
@@ -409,8 +409,8 @@ export const Manual_operate_serurity_search_lt_Tbl4 = [
     {
         id: '18',
         cat: 'Weight (Approx)',
-        cat1: '18Kg',
-        cat2: '23Kg'
+        cat1: '18 Kg',
+        cat2: '23 Kg'
 
     },
 ]

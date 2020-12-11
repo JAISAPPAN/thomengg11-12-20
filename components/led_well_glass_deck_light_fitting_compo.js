@@ -30,7 +30,7 @@ const led_well_glass_deck_light_fitting_Details_Specs_Tbl = [
         CatalogNumber: '1112/AL',
         Watt:'12W',
         AnnualPowerConsumption:'36KW',
-        MaxLumes:'1200lm',
+        MaxLumes:'1200 lm',
         Specification: 'Die cast Aluminium body with die cast protective wire guard with U shape polycarbonate milky shade with rubber gasket, 2 way connector with 2 nos. cable entries with PG cable glands. S.S. hardware. Fitting for 12W. 240V. LED with Suitable Electronic LED Driver. Fitting in the line of IP 65 protection.'
     },
     {
@@ -38,7 +38,7 @@ const led_well_glass_deck_light_fitting_Details_Specs_Tbl = [
         CatalogNumber: '1112/BR',
         Watt: '12W',
         AnnualPowerConsumption: '36KW',
-        MaxLumes: '1200lm',
+        MaxLumes: '1200 lm',
         Specification: 'Same as per above... But with cast Brass body and Brass / SS wire guard.'
     },
     {
@@ -46,7 +46,7 @@ const led_well_glass_deck_light_fitting_Details_Specs_Tbl = [
         CatalogNumber: '1212/AL',
         Watt: '12W',
         AnnualPowerConsumption: '36KW',
-        MaxLumes: '1200lm',
+        MaxLumes: '1200 lm',
         Specification: 'Same as per 1112 - suitable for side wall mounting arrangement with 2 nos. cable entries with PG. glands opposite side.'
     },
     {
@@ -54,7 +54,7 @@ const led_well_glass_deck_light_fitting_Details_Specs_Tbl = [
         CatalogNumber: '1212/BR',
         Watt: '12W',
         AnnualPowerConsumption: '36KW',
-        MaxLumes: '1200lm',
+        MaxLumes: '1200 lm',
         Specification: '.. Do... But cast Brass body with Brass / SS protective wire guard.'
     },
     {
@@ -62,7 +62,7 @@ const led_well_glass_deck_light_fitting_Details_Specs_Tbl = [
         CatalogNumber: '1315/AL',
         Watt: '15W',
         AnnualPowerConsumption: '45KW',
-        MaxLumes: '1500lm',
+        MaxLumes: '1500 lm',
         Specification: 'Similar to 1112 / Al but suitable for 15W. 240V. LED.'
     },
     {
@@ -70,7 +70,7 @@ const led_well_glass_deck_light_fitting_Details_Specs_Tbl = [
         CatalogNumber: '1315/BR',
         Watt: '15W',
         AnnualPowerConsumption: '45KW',
-        MaxLumes: '1500lm',
+        MaxLumes: '1500 lm',
         Specification: 'Similar to 1315 / Al but in brass body.'
     },
     {
@@ -78,7 +78,7 @@ const led_well_glass_deck_light_fitting_Details_Specs_Tbl = [
         CatalogNumber: '1107/AL',
         Watt: '6W',
         AnnualPowerConsumption: '18KW',
-        MaxLumes: '600lm',
+        MaxLumes: '600 lm',
         Specification: 'Similar to 1112. Fitting for 6W 24V Alluminium Body.'
     },
     {
@@ -86,7 +86,7 @@ const led_well_glass_deck_light_fitting_Details_Specs_Tbl = [
         CatalogNumber: '1107/BR',
         Watt: '6W',
         AnnualPowerConsumption: '18KW',
-        MaxLumes: '600lm',
+        MaxLumes: '600 lm',
         Specification: 'Similar to 1112. Fitting for 6W 24V Brass Body.'
     }
        

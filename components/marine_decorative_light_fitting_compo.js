@@ -95,17 +95,17 @@ export const DecorativeFloodLtTbl1=[
     {
         id: '2',
         cat: '8240',
-        Spec: '-do-- suitable for 2 nos. of 40W. Tubes.'
+        Spec: '-do-- suitable for 2\' nos. of 40W. Tubes.'
     },
     {
         id: '3',
         cat: '7120',
-        Spec: 'Cornic well decorative fitting suitable for 1 x 20W. 230V. 50 hz fluorescent tube, made from CRCA MS sheet, duly powder coated with opal/clear acrylic diffuser. Fitting provided with 2 nos cable entries, duly wired with 20W. polyester filled copper heavy duty choke, spring loaded bi-pin rotary holder, starter suitable condenser for PF. improvement.'
+        Spec: 'Cornic well decorative fitting suitable for 1 x 20W. 230V. 50 hz fluorescent tube, made from CRCA MS sheet, duly powder coated with opal/clear acrylic diffuser. Fitting provided with 2\' nos cable entries, duly wired with 20W. polyester filled copper heavy duty choke, spring loaded bi-pin rotary holder, starter suitable condenser for PF. improvement.'
     },
     {
         id: '4',
         cat: '7220',
-        Spec: '--do-- suitable for 2 nos. of 20W. tubes.'
+        Spec: '--do-- suitable for 2\' nos. of 20W. tubes.'
     },
     {
         id: '5',
@@ -160,7 +160,7 @@ export const DecorativeFloodLtTbl2=[
         wat:'18W',
         power:'52KW',
         lumes:'1760 lm',
-        seec:'Recess type Decorative LED Light fitting. 18W. 240v CRCA body with Clear polycarbonate shade. Fitting with 2 nos. 9W. LED retrofit tubes.'
+        seec:'Recess type Decorative LED Light fitting. 18W. 240v CRCA body with Clear polycarbonate shade. Fitting with 2\' nos. 9W. LED retrofit tubes.'
     },
     {
         id: '',
@@ -168,7 +168,7 @@ export const DecorativeFloodLtTbl2=[
         wat: '36W',
         power: '104KW',
         lumes: '3500 lm',
-        seec: 'Recess type Decorative LED Light fitting. 36W. 240v CRCA body with Clear polycarbonate shade. Fitting with 2 nos. 18W. LED retrofit tubes.'
+        seec: 'Recess type Decorative LED Light fitting. 36W. 240v CRCA body with Clear polycarbonate shade. Fitting with 2\' nos. 18W. LED retrofit tubes.'
     },
     {
         id: '',
@@ -176,7 +176,7 @@ export const DecorativeFloodLtTbl2=[
         wat: '18W',
         power: '58KW',
         lumes: '1760 lm',
-        seec: 'Cronic well decorative fitting suitable for LED 18W 240V, 50hz, made from CRCA MS sheet, duly powder coated with opal/Clear polycarbonate diffuser. Fitting provided with 2 nos cable entries, Fitting With 2 nos. 9W. LED tubes.'
+        seec: 'Cronic well decorative fitting suitable for LED 18W 240V, 50hz, made from CRCA MS sheet, duly powder coated with opal/Clear polycarbonate diffuser. Fitting provided with 2\' nos cable entries, Fitting With 2 nos. 9W. LED tubes.'
     },
     {
         id: '',

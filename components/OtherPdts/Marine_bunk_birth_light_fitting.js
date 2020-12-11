@@ -27,7 +27,7 @@ const mbblf_Tbl2 = [
         url: '/marine-bunk-berth-light-fitting/3.png',
         Watt: '6W',
         AnnualPowerConsumption: '18KW',
-        MaxLumes: '600lm',
+        MaxLumes: '600 lm',
         
     },
     {
@@ -36,7 +36,7 @@ const mbblf_Tbl2 = [
         url: '/marine-bunk-berth-light-fitting/4.png',
         Watt: '6W',
         AnnualPowerConsumption: '18KW',
-        MaxLumes: '1200lm',
+        MaxLumes: '1200 lm',
        
     }
 

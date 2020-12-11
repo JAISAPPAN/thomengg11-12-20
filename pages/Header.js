@@ -10,7 +10,7 @@ export default function Header() {
                     <Navbar.Brand href="/"><img class="logo" src="/logo.jpg"/></Navbar.Brand>
                     <Nav className="mr-auto">
                     <Link href="/"><Button size="lg block" >Home</Button></Link>
-                    <Link href="/About"><Button size="lg block">About Us</Button></Link>
+                    <Link href="/about"><Button size="lg block">About Us</Button></Link>
                     <Link href="/Service"><Button size="lg block">Services</Button></Link>
                    
                     

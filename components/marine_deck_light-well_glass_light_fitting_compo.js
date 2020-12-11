@@ -6,7 +6,7 @@ const marine_deck_light_well_glass_light_fitting = [
         id: '1',
         CatalogNumber: '1112/AL',
         url: '/marine_deck_light-well_glass_light_fitting/1.png',
-        Specification: 'Die cast Aluminium body with die cast protective wire guard with U shape polycarbonate milky shade with rubber gasket, 2 way connector with 2 nos. cable entries with PG cable glands. S.S. hardware. Fitting for 12W. 240V. LED with Suitable Electronic LED Driver. Fitting in the line of IP 65 protection.'
+        Specification: 'Die cast Aluminium body with die cast protective wire guard with U shape polycarbonate milky shade with rubber gasket, 2 way connector with 2\' nos. cable entries with PG cable glands. S.S. hardware. Fitting for 12W. 240V. LED with Suitable Electronic LED Driver. Fitting in the line of IP 65 protection.'
     },
     {
         id: '2',
@@ -18,14 +18,14 @@ const marine_deck_light_well_glass_light_fitting = [
         id: '3',
         CatalogNumber: '1212/AL',
         url: '/marine_deck_light-well_glass_light_fitting/3.png',
-        Specification: 'Same as per 1112 - suitable for side wall mounting arrangement with 2 nos. cable entries with PG. glands opposite side.'
+        Specification: 'Same as per 1112 - suitable for side wall mounting arrangement with 2\' nos. cable entries with PG. glands opposite side.'
     },
     {
         id: '4',
         CatalogNumber: '1171 BC/ES',
         url: '/marine_deck_light-well_glass_light_fitting/4.png',
 
-        Specification: 'Same as per 1151 - suitable for side wall mounting arrangements with 2 nos. cable entries Brass glands opposite side.'
+        Specification: 'Same as per 1151 - suitable for side wall mounting arrangements with 2\' nos. cable entries Brass glands opposite side.'
     },
     {
         id: '5',
@@ -43,7 +43,7 @@ const marine_deck_light_well_glass_light_fitting = [
         id: '7',
         CatalogNumber: '1181 BC/ES',
         url: '/marine_deck_light-well_glass_light_fitting/7.png',
-        Specification: 'Cast Aluminium body with MS/SS protective wire guard with clear U shape threaded glass porcelain BC / ES lamp holder with 2 way connector with 2 nos. suitable upto 100W Lamp'
+        Specification: 'Cast Aluminium body with MS/SS protective wire guard with clear U shape threaded glass porcelain BC / ES lamp holder with 2 way connector with 2\' nos. suitable upto 100W Lamp'
     }
 
 
@@ -54,13 +54,13 @@ const marine_deck_light_well_glass_light_fitting_Tbl = [
         id: '1',
         CatalogNumber: '1112/AL',
 
-        Specification: 'Die cast Aluminium body with die cast protective wire guard with U shape polycarbonate milky shade with rubber gasket, 2 way connector with 2 nos. cable entries with PG cable glands. S.S. hardware. Fitting for 12W. 240V. LED with Suitable Electronic LED Driver. Fitting in the line of IP 65 protection.'
+        Specification: 'Die cast Aluminium body with die cast protective wire guard with U shape polycarbonate milky shade with rubber gasket, 2 way connector with 2\' nos. cable entries with PG cable glands. S.S. hardware. Fitting for 12W. 240V. LED with Suitable Electronic LED Driver. Fitting in the line of IP 65 protection.'
     },
     {
         id: '2',
         CatalogNumber: '1151 N/(BC/ES)',
 
-        Specification: '60w BC/ES Holder Nylon Body and Guard With U Shape Clear Glass. 2 nos cable entries with plastic cable glands.'
+        Specification: '60w BC/ES Holder Nylon Body and Guard With U Shape Clear Glass. 2\' nos cable entries with plastic cable glands.'
     },
     {
         id: '3',
@@ -73,7 +73,7 @@ const marine_deck_light_well_glass_light_fitting_Tbl = [
         CatalogNumber: '1171 BC/ES',
 
 
-        Specification: 'Same as per 1151 - suitable for side wall mounting arrangements with 2 nos. cable entries Brass glands opposite side.'
+        Specification: 'Same as per 1151 - suitable for side wall mounting arrangements with 2\' nos. cable entries Brass glands opposite side.'
     },
     {
         id: '5',

@@ -7,7 +7,7 @@ import { MajorClients } from '../components/MajorClients'
 import { JobsDone } from '../components/JobsDone'
 import Footer from './Footer'
 import { JumboAbout } from '../components/Jumbo'
-import style from '../styles/Home.module.css'
+
 
 export default function About() {
     return (

@@ -6,13 +6,13 @@ const MwtsOne =[
         id:'101',
         CatalogNumber:'1702/03',
         url:'/mwts/mwts101.png',
-        Specification:'10/15 A 230 V, On/Off double pole rotary switch in cast Aluminium enclosure with 2 Nos. cable entries with Plastic cable glands, Nylon knob for operating on/off, SS hardware'
+        Specification:'10/15 A 230 V, On/Off double pole rotary switch in cast Aluminium enclosure with 2\' Nos. cable entries with Plastic cable glands, Nylon knob for operating on/off, SS hardware'
     },
     {
         id: '102',
         CatalogNumber:'1702 N',
         url: '/mwts/mwts102.png',
-        Specification:'10/15A 230V On/Off Double Pole Rotary switch in Nylon Body with 2 Nos. cable entries with Cable Glands,Nylon knob for Oprating.'
+        Specification:'10/15A 230V On/Off Double Pole Rotary switch in Nylon Body with 2\' Nos. cable entries with Cable Glands,Nylon knob for Oprating.'
     },
     {
         id: '3',
